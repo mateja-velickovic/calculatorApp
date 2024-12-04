@@ -4,7 +4,7 @@ namespace CalculatorApp
     {
         private readonly Calculator _calc;
 
-        private string _currentOperation="";
+        private string _currentOperation = "";
         private double _firstOperand;
         private bool _isOperationClicked;
 
@@ -54,7 +54,9 @@ namespace CalculatorApp
         {
             var button = sender as Button;
             _firstOperand = double.Parse(txtResult.Text);
+#pragma warning disable CS8602 // Déréférencement d'une éventuelle référence null.
             _currentOperation = button.Text;
+#pragma warning restore CS8602 // Déréférencement d'une éventuelle référence null.
             _isOperationClicked = true;
         }
 
@@ -68,7 +70,14 @@ namespace CalculatorApp
                 _isOperationClicked = false;
             }
 
+#pragma warning disable CS8602 // Déréférencement d'une éventuelle référence null.
             txtResult.Text += button.Text;
+#pragma warning restore CS8602 // Déréférencement d'une éventuelle référence null.
+        }
+
+        private void btnComa_Click(object sender, EventArgs e)
+        {
+  
         }
     }
- }
+}

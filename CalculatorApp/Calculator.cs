@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalculatorApp
 {
-    internal class Calculator
+    public class Calculator
     {
         public double Add(double a, double b)
         {

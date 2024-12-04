@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "389H+NLtU1U=",
+  "dgSpecHash": "BVrKkSkopDBhs1rKFbAXOIHul1YwVAEajmw9YvQBb5Qmspkd649aNw39J7pMY5ZcPONYZRWl/hBC2fFgIRzEJw==",
   "success": true,
-  "projectFilePath": "E:\\05-Projets\\CalculatorApp_vide\\CalculatorApp\\CalculatorApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\pe04uhp\\Desktop\\calculatorApp\\CalculatorApp\\CalculatorApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pe04uhp\\.nuget\\packages\\nunit\\4.2.2\\nunit.4.2.2.nupkg.sha512"
+  ],
   "logs": []
 }
